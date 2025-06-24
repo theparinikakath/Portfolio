@@ -1,3 +1,5 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
@@ -6,21 +8,33 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Education from './components/Education';
+import NotFound from './components/NotFound';
 
-function App() {
+function MainContent() {
   return (
     <>
       <Navbar />
       <main style={{ marginTop: '1px' }}>
-        <Hero/>
+        <Hero />
         <About />
-        <Education/>
+        <Education />
         <Skills />
         <Projects />
         <Contact />
       </main>
-        <Footer/>
+      <Footer />
     </>
+  );
+}
+
+function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<MainContent />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </Router>
   );
 }
 
