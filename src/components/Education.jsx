@@ -14,14 +14,14 @@ const educationData = [
       "Software Engineering, Web Development",
       "Machine Learning, Computer Networks & Organizational Architecture",
     ],
-    logo: jiitLogo,
+    logo: "https://i.ibb.co/XYZabc/jiit.png",
   },
   {
     date: "Jul 2020 - May 2022",
     title: "Senior Secondary (CBSE)",
     institute: "Mayo International School, Delhi",
     details: ["Score in XII: 83%", "PCM + English + Informatics Practices"],
-    logo: mayo,
+    logo: "https://i.ibb.co/XYZabc/mayo.png",
   },
   {
     date: "Mar 2008 - Mar 2020",
@@ -31,7 +31,7 @@ const educationData = [
       "Score in X: 97.2%",
       "Editorial board, Badminton club, Math club",
     ],
-    logo: hass,
+    logo: "https://i.ibb.co/XYZabc/hass.png",
   },
 ];
 
@@ -40,7 +40,6 @@ export default function Education() {
     <section id="education" className="container py-5">
       <h2 className="text-center mb-5 fw-bold">Education Timeline</h2>
       <div className="position-relative">
-        {/* Center line */}
         <div
           className="position-absolute top-0 start-50 translate-middle-x"
           style={{
