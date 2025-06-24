@@ -35,7 +35,7 @@ export default function Navbar() {
         <div className="container-fluid px-4 px-md-5 d-flex justify-content-between align-items-center">
           {/* Logo2 */}
           <a className="navbar-brand d-flex align-items-center gap-2" href="#">
-            <img src="https://ibb.co/SD7kvvv6" alt="Logo" style={{ height: '30px' }} />
+            <img src="https://i.ibb.co/gbF0gggr/logo2.jpg" alt="Logo" style={{ height: '30px' }} />
             <span>Parinika Kath</span>
           </a>
 
