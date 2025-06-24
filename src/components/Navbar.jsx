@@ -20,7 +20,6 @@ export default function Navbar() {
 
   return (
     <>
-      {/* Sticky Navbar */}
       <nav
         className={`navbar custom-navbar navbar-expand-lg ${
           darkMode ? 'navbar-dark bg-dark' : 'navbar-light bg-light'
@@ -34,13 +33,12 @@ export default function Navbar() {
         }}
       >
         <div className="container-fluid px-4 px-md-5 d-flex justify-content-between align-items-center">
-          {/* Logo */}
+          {/* Logo2 */}
           <a className="navbar-brand d-flex align-items-center gap-2" href="#">
-            <img src="/src/assets/logo2.png" alt="Logo" style={{ height: '30px' }} />
+            <img src="https://ibb.co/SD7kvvv6" alt="Logo" style={{ height: '30px' }} />
             <span>Parinika Kath</span>
           </a>
 
-          {/* Hamburger Icon */}
           <div className="d-lg-none">
             <button
               className="btn"
@@ -51,10 +49,9 @@ export default function Navbar() {
             </button>
           </div>
 
-          {/* Desktop Nav */}
           <ul className="navbar-nav d-none d-lg-flex flex-row gap-3 align-items-center mb-0">
             <li className="nav-item"><a href="#about" className="nav-link">About</a></li>
-            <li className="nav-item"><a href="#education" className="nav-link">Education</a></li> {/* ✅ Added */}
+            <li className="nav-item"><a href="#education" className="nav-link">Education</a></li>
             <li className="nav-item"><a href="#skills" className="nav-link">Skills</a></li>
             <li className="nav-item"><a href="#projects" className="nav-link">Projects</a></li>
             <li className="nav-item"><a href="#contact" className="nav-link">Contact</a></li>
@@ -71,7 +68,6 @@ export default function Navbar() {
         </div>
       </nav>
 
-      {/* Mobile Dropdown Menu */}
       {menuOpen && (
         <div
           className={`d-lg-none w-100 pt-2 ${
@@ -90,7 +86,7 @@ export default function Navbar() {
               <a href="#about" className="nav-link" onClick={() => setMenuOpen(false)}>About</a>
             </li>
             <li className="nav-item">
-              <a href="#education" className="nav-link" onClick={() => setMenuOpen(false)}>Education</a> {/* ✅ Added */}
+              <a href="#education" className="nav-link" onClick={() => setMenuOpen(false)}>Education</a> 
             </li>
             <li className="nav-item">
               <a href="#skills" className="nav-link" onClick={() => setMenuOpen(false)}>Skills</a>
