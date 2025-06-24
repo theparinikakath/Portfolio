@@ -8,7 +8,7 @@ export default function About() {
 
         <div className="col-md-5 order-1 order-md-0 mb-4 mb-md-0 d-flex justify-content-center">
           <img
-            src="https://ibb.co/Cs0h1B3x"
+            src="https://i.ibb.co/8486KMLF/RedAngel.jpg"
             alt="Parinika"
             className="img-fluid rounded shadow"
           />
