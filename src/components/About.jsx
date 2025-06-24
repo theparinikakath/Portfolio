@@ -2,21 +2,18 @@ export default function About() {
   return (
     <section id="about" className="container py-5">
       <div className="row justify-content-center">
-        {/* Heading - Always on top */}
         <div className="col-12 text-center mb-4">
           <h2 className="mb-0" style={{ fontSize: "2.5rem" }}>About Me</h2>
         </div>
 
-        {/* Image - 2nd on mobile, 1st on desktop */}
         <div className="col-md-5 order-1 order-md-0 mb-4 mb-md-0 d-flex justify-content-center">
           <img
-            src="/src/assets/RedAngel.jpg"
+            src="https://ibb.co/Cs0h1B3x"
             alt="Parinika"
             className="img-fluid rounded shadow"
           />
         </div>
 
-        {/* Text - 3rd on mobile, 2nd on desktop */}
         <div className="col-md-7 order-2 order-md-1">
           <p style={{ fontSize: "1rem", lineHeight: "1.8" }}>
             I'm a <strong>web developer</strong> with a strong eye for clean, accessible, and modern UI/UX. Over the past few years, 
