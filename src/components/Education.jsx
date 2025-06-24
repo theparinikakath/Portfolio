@@ -1,7 +1,7 @@
 import React from "react";
-import jiitLogo from "https://ibb.co/xq1m9nDs";
-import mayo from "https://ibb.co/Z6T44P1R";
-import hass from "https://ibb.co/X0bVZ1g";
+import jiitLogo from "https://i.ibb.co/PZCXXnzs/mayo.png";
+import mayo from "https://i.ibb.co/Mkc8wzsh/jiit.png";
+import hass from "https://i.ibb.co/04cQjTS/hass.jpg";
 
 const educationData = [
   {
@@ -14,14 +14,14 @@ const educationData = [
       "Software Engineering, Web Development",
       "Machine Learning, Computer Networks & Organizational Architecture",
     ],
-    logo: "https://i.ibb.co/XYZabc/jiit.png",
+    logo: "https://i.ibb.co/Mkc8wzsh/jiit.png",
   },
   {
     date: "Jul 2020 - May 2022",
     title: "Senior Secondary (CBSE)",
     institute: "Mayo International School, Delhi",
     details: ["Score in XII: 83%", "PCM + English + Informatics Practices"],
-    logo: "https://i.ibb.co/XYZabc/mayo.png",
+    logo: "https://i.ibb.co/PZCXXnzs/mayo.png",
   },
   {
     date: "Mar 2008 - Mar 2020",
@@ -31,7 +31,7 @@ const educationData = [
       "Score in X: 97.2%",
       "Editorial board, Badminton club, Math club",
     ],
-    logo: "https://i.ibb.co/XYZabc/hass.png",
+    logo: "https://i.ibb.co/04cQjTS/hass.jpg",
   },
 ];
 
