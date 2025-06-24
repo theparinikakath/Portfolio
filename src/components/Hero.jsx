@@ -36,9 +36,9 @@ export default function Hero() {
       style={{ overflow: "hidden" }}
     >
       <h1 className="display-3 mb-3">Hi, I'm Parinika</h1>
-      <div className="mb-3" style={{ marginTop: "0.01px" /* space below navbar */ }}>
+      <div className="mb-3" style={{ marginTop: "0.01px" }}>
         <img
-          src="https://media.tenor.com/IF2JdxzmyN4AAAAj/coding-girl.gif"
+          src="https://i.ibb.co/s9Fvrjgm/mine.gif"
           alt="Girl coding"
           style={{ maxHeight: "300px", maxWidth: "100%", borderRadius: "10px" }}
         />
