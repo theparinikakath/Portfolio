@@ -1,7 +1,7 @@
 import React from "react";
-import jiitLogo from "/src/assets/jiit.png";
-import mayo from "/src/assets/mayo.png";
-import hass from "/src/assets/hass.png";
+import jiitLogo from "https://ibb.co/xq1m9nDs";
+import mayo from "https://ibb.co/Z6T44P1R";
+import hass from "https://ibb.co/X0bVZ1g";
 
 const educationData = [
   {
@@ -80,7 +80,6 @@ export default function Education() {
                 </p>
               </div>
 
-              {/* Center icon for large screens */}
               <div
                 className="d-none d-md-flex position-absolute start-50 translate-middle-x align-items-center justify-content-center bg-body rounded-circle border"
                 style={{
@@ -98,13 +97,11 @@ export default function Education() {
                 />
               </div>
 
-              {/* Card */}
               <div
                 className={`col-md-6 ${isLeft ? "offset-md-1" : "order-md-1"}`}
               >
                 <div className="card border-0 shadow bg-light-subtle dark:bg-dark-subtle ms-md-3 me-md-3">
                   <div className="card-body">
-                    {/* Top logo for small screens */}
                     <div className="d-md-none text-center mb-3">
                       <img
                         src={item.logo}
