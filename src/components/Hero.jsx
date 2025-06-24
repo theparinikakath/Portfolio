@@ -38,13 +38,12 @@ export default function Hero() {
       <h1 className="display-3 mb-3">Hi, I'm Parinika</h1>
       <div className="mb-3" style={{ marginTop: "0.01px" /* space below navbar */ }}>
         <img
-          src="/src/assets/mine.gif"
+          src="https://media.tenor.com/IF2JdxzmyN4AAAAj/coding-girl.gif"
           alt="Girl coding"
           style={{ maxHeight: "300px", maxWidth: "100%", borderRadius: "10px" }}
         />
       </div>
 
-      {/* Main text content */}
       <p className="lead mb-2">
         I'm a{" "}
         <span style={{ fontSize: "1.8rem", color: "#fbd1a2", fontWeight: "bold" }}>
