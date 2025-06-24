@@ -18,6 +18,7 @@ import {
   SiBootstrap,
   SiRender,
   SiVercel,
+  SiDocker, // ✅ Import Docker icon
 } from "react-icons/si";
 
 export default function Skills() {
@@ -40,9 +41,10 @@ export default function Skills() {
     { name: "GitHub", icon: <FaGithub color="#171515" /> },
     { name: "Render", icon: <SiRender color="#3BA9FC" /> },
     { name: "Vercel", icon: <SiVercel color="#000000" /> },
+    { name: "Docker", icon: <SiDocker color="#0db7ed" /> },
   ];
 
-  const layers = [[0, 1, 2, 3, 4, 5, 6, 7], [8, 9, 10, 11, 12, 13], [14, 15, 16, 17]];
+  const layers = [[0, 1, 2, 3, 4, 5, 6, 7],[8, 9, 10, 11, 12, 13],[14, 15, 16, 17, 18], ];
 
   return (
     <section id="skills" className="container py-5 text-center">
@@ -89,7 +91,6 @@ export default function Skills() {
           transform: rotateY(15deg) rotateX(10deg) scale(1.1);
         }
 
-        /* Only apply on small screens */
         @media (max-width: 576px) {
           .skill-item {
             flex: 0 0 30%;

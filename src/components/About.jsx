@@ -27,7 +27,7 @@ export default function About() {
             <br /><br />
             I've also developed my own versions of popular platforms like Quora and WhatsApp (feel free to check out my GitHub 😊).
             <br /><br />
-            I'm also an active <strong>problem solver</strong>, with 500+ problems solved across LeetCode and GeeksforGeeks. 
+            I'm also an active <strong>problem solver</strong>, with 600+ problems solved across LeetCode and GeeksforGeeks. 
             I actively participate in coding contests and have recently started competing on Codeforces.
           </p>
         </div>

@@ -44,7 +44,7 @@ export default function Contact() {
       <div style={{ maxWidth: "600px", margin: "0 auto" }}>
         <h2 className={`mb-4 text-center ${labelClass}`}>Contact</h2>
         <p className="text-center">Feel free to mail me on <strong>parinikakath@gmail.com</strong> to discuss about collaborations
-          or future opportunities & projects or even just to talk.
+          or future opportunities & projects or even just to talk. 😊
         </p>
         <form onSubmit={handleSubmit}>
           <div className="mb-3">
@@ -91,7 +91,7 @@ export default function Contact() {
               value={form.message}
               onChange={handleChange}
               required
-              placeholder="Type your message here..."
+              placeholder="Hey Parinika! How are you? I wanna talk to you about..."
             />
           </div>
 

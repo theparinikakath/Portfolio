@@ -10,7 +10,9 @@ const educationData = [
     institute: "Jaypee Institute of Information Technology",
     details: [
       "CourseWorks: Data Structures and Algorithms",
-      "Operating Systems, DBMS, Computer Networks",
+      "Operating Systems, DBMS, System Design",
+      "Software Engineering, Web Development",
+      "Machine Learning, Computer Networks & Organizational Architecture",
     ],
     logo: jiitLogo,
   },
@@ -35,7 +37,7 @@ const educationData = [
 
 export default function Education() {
   return (
-    <section className="container py-5">
+    <section id="education" className="container py-5">
       <h2 className="text-center mb-5 fw-bold">Education Timeline</h2>
       <div className="position-relative">
         {/* Center line */}
@@ -46,7 +48,7 @@ export default function Education() {
             height: "100%",
             backgroundColor: "currentColor",
             opacity: 0.25,
-            zIndex: 1,
+            zIndex: 0, 
           }}
         ></div>
 

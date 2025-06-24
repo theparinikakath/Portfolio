@@ -54,6 +54,7 @@ export default function Navbar() {
           {/* Desktop Nav */}
           <ul className="navbar-nav d-none d-lg-flex flex-row gap-3 align-items-center mb-0">
             <li className="nav-item"><a href="#about" className="nav-link">About</a></li>
+            <li className="nav-item"><a href="#education" className="nav-link">Education</a></li> {/* ✅ Added */}
             <li className="nav-item"><a href="#skills" className="nav-link">Skills</a></li>
             <li className="nav-item"><a href="#projects" className="nav-link">Projects</a></li>
             <li className="nav-item"><a href="#contact" className="nav-link">Contact</a></li>
@@ -78,7 +79,7 @@ export default function Navbar() {
           }`}
           style={{
             position: 'fixed',
-            top: '60px', // adjust if your navbar is taller
+            top: '60px',
             left: 0,
             zIndex: 999,
             borderTop: '1px solid rgba(255,255,255,0.1)',
@@ -87,6 +88,9 @@ export default function Navbar() {
           <ul className="navbar-nav text-center d-flex flex-column gap-3 px-4 py-3">
             <li className="nav-item">
               <a href="#about" className="nav-link" onClick={() => setMenuOpen(false)}>About</a>
+            </li>
+            <li className="nav-item">
+              <a href="#education" className="nav-link" onClick={() => setMenuOpen(false)}>Education</a> {/* ✅ Added */}
             </li>
             <li className="nav-item">
               <a href="#skills" className="nav-link" onClick={() => setMenuOpen(false)}>Skills</a>
@@ -114,7 +118,6 @@ export default function Navbar() {
         </div>
       )}
 
-      {/* Spacer to prevent content from hiding under fixed navbar */}
       <div style={{ height: '60px' }}></div>
     </>
   );
