@@ -1,7 +1,4 @@
 import React from "react";
-import jiitLogo from "https://i.ibb.co/PZCXXnzs/mayo.png";
-import mayo from "https://i.ibb.co/Mkc8wzsh/jiit.png";
-import hass from "https://i.ibb.co/04cQjTS/hass.jpg";
 
 const educationData = [
   {
