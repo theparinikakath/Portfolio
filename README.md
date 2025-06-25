@@ -54,7 +54,7 @@ npm run dev
 If you want to collaborate or just say hello:
 
 * ✉️ **Email**: [parinikakath@gmail.com](mailto:parinikakath@gmail.com)
-* 🔗 **LinkedIn**: [https://www.linkedin.com/in/parinikakath/](https://www.linkedin.com/in/parinikakath/)]
+* 🔗 **LinkedIn**: [https://www.linkedin.com/in/parinikakath/](https://www.linkedin.com/in/parinikakath/)
 
 ---
 
