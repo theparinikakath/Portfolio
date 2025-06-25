@@ -59,6 +59,5 @@ If you want to collaborate or just say hello:
 ---
 
 > Designed and developed with ❤️ by Parinika Kath
-> Hosted on Render
 
 ---
