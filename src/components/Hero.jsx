@@ -58,7 +58,7 @@ export default function Hero() {
           About Me
         </a>
         <a
-          href="https://drive.google.com/drive/u/0/folders/1YsLxpfIrXpKTaimSjaDb1aPlzUSeVutF"
+          href="https://drive.google.com/file/d/1NzH_ZI7NHfLOGn2TRj9A4Oq6kXywwsJp/view?usp=sharing"
           className="btn btn-outline-light"
           target="_blank"
           rel="noopener noreferrer"
