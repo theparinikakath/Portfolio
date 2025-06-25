@@ -1,4 +1,4 @@
-# 💼 Parinika Kath | Portfolio Website
+# 👩‍💻 Parinika Kath | Portfolio Website 👩‍💻
 
 Welcome to my personal portfolio website! This site showcases my projects, skills, education, experience, and contact information — built to reflect who I am as a developer and creative problem-solver.
 
