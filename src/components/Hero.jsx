@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const titles = ["MERN Stack Developer", "Frontend Developer", "Problem Solver", "Tech Enthusiast", "Innovator"];
+const titles = ["MERN Stack Developer", "Frontend Engineer", "Problem Solver", "Tech Enthusiast", "Innovator"];
 
 export default function Hero() {
   const [index, setIndex] = useState(0);
