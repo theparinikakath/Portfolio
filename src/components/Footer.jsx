@@ -9,7 +9,7 @@ export default function Footer() {
   return (
     <footer className="bg-dark text-light py-4 mt-5">
       <div className="container text-center">
-        <p className="mb-1">© {new Date().getFullYear()} Made with ❤️ by Parinika Kath </p>
+        <p className="mb-1">© 2025 Made with ❤️ by Parinika Kath </p>
 
         <div className="d-flex justify-content-center gap-3 mt-3 fs-4">
           <a
