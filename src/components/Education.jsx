@@ -35,7 +35,7 @@ const educationData = [
 export default function Education() {
   return (
     <section id="education" className="container py-5">
-      <h2 className="text-center mb-5 fw-bold">Education Timeline</h2>
+      <h2 className="text-center mb-5 fw-bold">Career Timeline</h2>
       <div className="position-relative">
         <div
           className="position-absolute top-0 start-50 translate-middle-x"
