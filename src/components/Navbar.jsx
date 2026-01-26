@@ -51,7 +51,7 @@ export default function Navbar() {
 
           <ul className="navbar-nav d-none d-lg-flex flex-row gap-3 align-items-center mb-0">
             <li className="nav-item"><a href="#about" className="nav-link">About</a></li>
-            <li className="nav-item"><a href="#education" className="nav-link">Education</a></li>
+            <li className="nav-item"><a href="#education" className="nav-link">Career</a></li>
             <li className="nav-item"><a href="#skills" className="nav-link">Skills</a></li>
             <li className="nav-item"><a href="#projects" className="nav-link">Projects</a></li>
             <li className="nav-item"><a href="#contact" className="nav-link">Contact</a></li>
